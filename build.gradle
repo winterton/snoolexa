@@ -7,6 +7,7 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
 dependencies {
@@ -22,6 +23,7 @@ dependencies {
     compile 'com.google.code.gson:gson:2.5'
     compile 'com.google.guava:guava:12.0'
     compile 'org.projectlombok:lombok:1.16.6'
+    compile 'net.dean.jraw:JRAW:0.8.0'
 
 }
 
